@@ -1,9 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `test` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE  IF NOT EXISTS `test`
 USE `test`;
 
 DROP TABLE IF EXISTS `admin`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `admin` (
   `aid` int(11) NOT NULL DEFAULT '0',
   `password` varchar(30) DEFAULT NULL,
